@@ -1,0 +1,59 @@
+@charset"utf-8";
+.prouct-assess .prouct-assess-tab1 span{
+    background-image: url(images/icon/pj3.jpg);
+}
+.prouct-assess .prouct-assess-tab2 span{
+    background-image: url(images/icon/pj4.jpg);
+}
+.prouct-assess .prouct-intro{
+    width:785px;
+    background-color: #fff;
+    border-top:1px solid #ccc;
+}
+.prouct-intro .prouct-intro-pr{
+    width:620px;
+    height:170px;
+    background-image: url(images/pi.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left:100px;
+    margin-top:20px;
+}
+.prouct-intro .procut-columns,.prouct-intro .procut-columns-line,.prouct-intro-text{
+    margin-left:20px;
+}
+.prouct-intro .procut-columns{
+    color:#3362ac;
+}
+.prouct-intro .procut-columns span{
+    font-size:14px;
+    color:#555;
+}
+.prouct-intro .procut-columns-line{
+    width:75px;
+}
+.prouct-intro .prouct-intro-text{
+    font-size:15px;
+    padding:65px 10px 30px;
+}
+.prouct-intro .prouct-intro-pr2{
+    width:760px;
+    height:550px;
+    background-image: url(images/pi2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.prouct-assess{
+   height:auto;
+   margin-bottom: 10px;
+}
+.prouct-assess.two{
+    border-top:none;
+}
+.prouct-assess .prouct-scroe{
+    margin-top:0px;
+}
+.conslt{
+    margin-left:210px;
+    margin-top:10px;
+}

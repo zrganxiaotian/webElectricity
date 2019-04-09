@@ -1,0 +1,174 @@
+@charset"utf-8";
+.content{
+    margin-top:20px; 
+
+}
+.content-prouct-menu{
+    background-color: #f3f3f3;
+    width:202px;
+    height:835px;
+    border:1px solid #ccc;
+    position:absolute;
+}
+.content-prouct-menu .prouct-mennu-title{
+    width:202px;
+    height:36px;
+    color:#555555;
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc;
+}
+.content-prouct-menu .prouct-menu-tab1{
+    width:182px;
+    font-size: 15px;
+    margin-top:10px;
+    padding-left:20px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 3px;
+
+}
+.content-prouct-menu .prouct-menu-tab1 dt{
+    font-weight: bold;
+    color:#555555;
+}
+.content-prouct-menu .prouct-menu-tab2{
+    font-size:13px;
+    width:182px;
+}
+.content-prouct-menu .prouct-menu-tab2 dd{
+    width:50%;
+    float:left;
+    padding-top:2px;
+    padding-bottom: 3px;
+}
+.content-prouct-menu .prouct-menu-tab1 a:hover{
+      text-decoration: underline;
+      cursor: pointer;
+}
+.content-prouct-menu .prouct-menu-tab1.last{
+    border-bottom:none;
+}
+.content .focus{
+    background-image: url(images/focus.jpg);
+    background-repeat: no-repeat;
+    width:791px;
+    height:326px; 
+    margin-left:209px;
+    background-size:100% 100%;  
+}
+.procut-columns{
+    width:812px;
+    height:42px;
+    margin-left:209px;
+    font-size:16px;
+    line-height: 42px;
+    font-weight: bold;
+    color:#555555;
+    text-indent:5px;
+    border-bottom: 2px solid #ccc;
+}
+.procut-columns-line{
+    width:180px;
+    height:2px;
+    background-color:#096dba;
+    margin-left:209px;
+    margin-top:-2px;
+}
+.procut-conent{
+    width:810px;
+    height:545px;
+    margin-left:209px;
+    margin-bottom:45px;
+}
+.procut-conent-list{
+    width:191px;
+    height:278px;
+    margin-left:8px;
+    margin-top:10px;
+}
+.procut-conent-list .procut-conent-pic{
+    width:170px;
+    height:170px;
+    background-image: url(images/cp1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.procut-conent-list .procut-conent-text{
+    color:#333;
+    font-size: 14px;
+    
+}
+.procut-conent-list .procut-conent-price{
+    color:#d4105a;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:15px;
+}
+.procut-conent-list .procut-conent-evaluate{
+    color:#333;
+    font-size: 14px;
+}
+.procut-conent-list .procut-conent-evaluate span{
+    background-image: url(images/icon/xing.jpg);
+    background-repeat: no-repeat;
+    width:13px;
+    height:13px;
+    display: inline-block;
+    
+
+}
+.procut-conent-list .procut-conent-evaluate .num{
+    background-image: none;
+    color:#085c9b;
+    display:inline-block;
+    width:44px;
+    font-size: 13px;
+    text-align: center;
+}
+.procut-conent-list .procut-conent-pic.p2{
+    background-image: url(images/cp2.jpg);
+}
+.procut-conent-list .procut-conent-pic.p3{
+    background-image: url(images/cp3.jpg);
+}
+.procut-conent-list .procut-conent-pic.p4{
+    background-image: url(images/cp4.jpg);
+}
+.procut-conent-list .procut-conent-pic.p5{
+    background-image: url(images/cp5.jpg);
+}
+.procut-conent-list .procut-conent-pic.p6{
+    background-image: url(images/cp6.jpg);
+}
+.procut-conent-list .procut-conent-pic.p7{
+    background-image: url(images/cp7.jpg);
+}
+.procut-conent-list .procut-conent-pic.p8{
+    background-image: url(images/cp8.jpg);
+}
+.procut-conent-list .procut-conent-pic.p9{
+    background-image: url(images/cp9.jpg);
+}
+.procut-conent-list .procut-conent-pic.p10{
+    background-image: url(images/cp10.jpg);
+}
+.procut-conent-list .procut-conent-pic.p11{
+    background-image: url(images/cp11.jpg);
+}
+.procut-conent-list .procut-conent-pic.p12{
+    background-image: url(images/cp12.jpg);
+}
+.procut-conent-list .procut-conent-pic.p13{
+    background-image: url(images/cp13.jpg);
+}
+.procut-conent-list .procut-conent-pic.p14{
+    background-image: url(images/cp14.jpg);
+}
+.procut-conent-list .procut-conent-pic.p15{
+    background-image: url(images/cp15.jpg);
+}
+.procut-conent-list .procut-conent-pic.p16{
+    background-image: url(images/cp16.jpg);
+}

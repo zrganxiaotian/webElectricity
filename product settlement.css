@@ -1,0 +1,124 @@
+@charset"utf-8";
+.main{
+    background-color:#fff;
+}
+.mid .ps-pr{
+    background-image: url(images/js1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:370px;
+    height:30px;
+    margin-top:20px;
+}
+.mid .ps-text1,.mid .ps-text2,.mid .ps-text3{
+    color:#fef101;
+    font-size:15px;
+    font-weight: bold;
+}
+.mid .ps-text3{
+    color:#fff;
+    margin-right:-400px;
+    margin-top:50px;  
+}
+.mid .ps-text1{
+    margin-right:-60px;
+    margin-top:50px;  
+}
+.mid .ps-text2{
+    margin-right:-235px;
+    margin-top:50px;   
+}
+.content{
+    width:1000px;
+    height:1000px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.ps-goods{
+    width:998px;
+    border:1px solid #ccc;
+    color:#444;
+    padding-bottom: 20px;
+    font-size:14px;
+}
+.ps-goods .ps-goods-head{
+    height:30px;
+    width:998px;
+    background-color: #f2f2f2;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #fff;
+    line-height: 30px;
+    text-indent: 10px;
+}
+.ps-goods .ps-goods-tab li,.ps-goods.two.tree .ps-goods-tab li{
+    background-image: url(images/icon/ps2.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    width:100%;
+    margin-left:30px;
+    text-indent: 10px;
+    margin-top:15px;
+}
+.ps-goods-tab .goods-text2-tab2{
+    border:1px solid #ccc;
+    width:165px;
+    display: inline-block;
+    font-size:14px;
+    color:#444;
+}
+
+.ps-goods-tab input{
+    border: 1px solid #ccc;
+    font-size:14px;
+    color:#888;
+    height:25px;
+    line-height: 25px;
+    text-indent: 5px;
+}
+.ps-goods-tab .one{
+    width:250px;
+}
+.ps-goods-tab .two{
+   color:#444;
+}
+.ps-goods .btn{
+    width:115px;
+    height:30px;
+    color:#fff;
+    background-color: #3a88f2;
+    border:none;
+    margin-left:30px;
+    margin-top:15px;
+}
+.ps-goods.two{
+    margin-top: 20px;
+}
+.ps-goods.two li{
+    background-image: none;
+}
+.ps-goods-tab .wx{
+    background-image: url(images/icon/weixin.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+}
+.ps-goods.two input{
+    vertical-align: middle;
+}
+.ps-goods .checkbox{
+    margin-left:30px;
+    margin-top:15px;
+}
+.ps-goods.two.tree .btn{
+    width:60px;
+    height:25px;
+}
+.ps-goods.two.tree .btn.false{
+    background-color:#f5f5f5;
+    color:#666;
+    border: 1px solid #ccc;
+}
