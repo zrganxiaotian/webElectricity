@@ -6,9 +6,9 @@
         <link rel="StyleSheet" href="main.css"/>
         <link rel="StyleSheet" href="prouct.css"/>
         <link rel="StyleSheet" href="screen.css"/>
-        <link rel="StyleSheet" href="product evaluation.css"/>
-        <link rel="StyleSheet" href="product introduce.css"/>
-        <link rel="StyleSheet" href="product settlement.css"/>
+        <link rel="StyleSheet" href="productEvaluation.css"/>
+        <link rel="StyleSheet" href="productIntroduce.css"/>
+        <link rel="StyleSheet" href="productSettlement.css"/>
     </head>
     <body>
     <div class="main">
@@ -47,8 +47,8 @@
                     <div class="ps-goods-head">支付方式</div>
                     <div class="ps-goods-tab">
                         <ul>
-                            <li><input type="radio">微信支付&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="wx"></span>&nbsp&nbsp用微信扫一扫能支付!</li>
-                            <li><input type="radio">货到付款&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp送货上门后再付款，使用现金或银行卡刷卡。</li>    
+                            <li><input type="radio" name="radio">微信支付&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="wx"></span>&nbsp&nbsp用微信扫一扫能支付!</li>
+                            <li><input type="radio" name="radio">货到付款&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp送货上门后再付款，使用现金或银行卡刷卡。</li>    
                         </ul>
                     </div>
             </div>
@@ -64,6 +64,19 @@
                     <input class="btn" type="button" value="保存">
                     <input class="btn false" type="button" value="取消">
             </div>
+            <div class="ps-goods two tree">
+                    <div class="ps-goods-head">送货清单</div>
+                    <div class="checkbox"><input type="checkbox">需要发票</div>
+                    <div class="ps-goods-tab">
+                        <ul>
+                            <li>发票类型：<select><option>商业零售发票</option></select></li>
+                            <li>发票抬头：<select><option>个人</option></select>&nbsp&nbsp<input type="text" value="阿斯顿"></li>                            
+                        </ul>
+                    </div>
+                    <input class="btn" type="button" value="保存">
+                    <input class="btn false" type="button" value="取消">
+            </div>
+
 
         </div>
     </div>

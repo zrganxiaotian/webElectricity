@@ -333,7 +333,7 @@
     background-image: url(images/icon/pj2.jpg);
 }
 .active{
-    background-color: #0479ca;
+    background-color: #0479ca !important;
     color:#fff;
 }
 .prouct-scroe{
