@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>电子商务平台</title>
+        <link rel="shortcut icon " type="images/x-icon" href="../favicon.ico">
+        <link rel="StyleSheet" href="../rsc/css/main.css"/>
+        <link rel="StyleSheet" href="../product/index.css"/>
+        <link rel="StyleSheet" href="../screen/index.css"/>
+        <link rel="StyleSheet" href="../productEvaluation/index.css"/>
+        <link rel="StyleSheet" href="../productIntroduce/index.css"/>
+        <link rel="StyleSheet" href="../productSettlement/index.css"/>
+    </head>
+    <body>
+    <div class="main">
+        <div class="head">
+            <div class="head-top">
+                <div class="head-collect clear">
+                    <div class="head-collect-star fl"></div>
+                    <div class="head-collect-left fl"><a href="javascript:void(0)">收藏慕课</a></div>
+                    <div class="head-collect-right fr">
+                        欢迎来到慕课网!
+                        <a href="../login/" class="right-login">[登录]</a>
+                        <a href="../register/" class="right-free">[免费注册]</a>
+                        <a href="javascript:void;" id = "username" style="display:none;"></a>
+                        <a href="javascript:void;" id = "loginOut" style="display:none;" onclick="loginOut()">退出</a>
+                    </div>
+                </div>
+            </div>
+            <div class="head-mid">
+                <div class="mid clear">
+                    <a href="../index.html"><div class="mid-logo fl"></div></a>
+                    <div class="ps-pr fr"></div>
+                    <div class="ps-text3 fr">订单提交成功</div>
+                    <div class="ps-text2 fr">填写核对订单</div>
+                    <div class="ps-text1 fr">我的购物车</div>    
+                </div>
+            </div>                    
+        </div>
+        <div class="content clear">
+            <div class="ps-goods">
+                <div class="ps-goods-head">收货信息</div>
+                <div class="ps-goods-tab">
+                    <ul>
+                        <li>选择地区：<div class="goods-text2-tab2">北京市 海淀区 五环内<span></span></div></li>
+                        <li>详细地址：<input class="one" type="text" value="最多输入26个汉字"></li>
+                        <li>收&nbsp货&nbsp人&nbsp：<input type="text" value="最多输入10个汉字"></li>
+                        <li>手&nbsp&nbsp&nbsp&nbsp机&nbsp&nbsp：<input type="text" value="如13452525252">或固定电话：<input class="two" type="text" value="区号">-<input class="two" type="text" value="电话号码">-<input class="two" type="text" value="分机号（可选）"></li>
+                    </ul>
+                </div>
+                <input class="btn" type="button" value="确认收货地址">
+            </div>
+            <div class="ps-goods two">
+                    <div class="ps-goods-head">支付方式</div>
+                    <div class="ps-goods-tab">
+                        <ul>
+                            <li><input type="radio" name="radio">微信支付&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="wx"></span>&nbsp&nbsp用微信扫一扫能支付!</li>
+                            <li><input type="radio" name="radio">货到付款&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp送货上门后再付款，使用现金或银行卡刷卡。</li>    
+                        </ul>
+                    </div>
+            </div>
+            <div class="ps-goods two tree">
+                    <div class="ps-goods-head">发票信息</div>
+                    <div class="checkbox"><input type="checkbox">需要发票</div>
+                    <div class="ps-goods-tab">
+                        <ul>
+                            <li>发票类型：<select><option>商业零售发票</option></select></li>
+                            <li>发票抬头：<select><option>个人</option></select>&nbsp&nbsp<input type="text" value="阿斯顿"></li>                            
+                        </ul>
+                    </div>
+                    <input class="btn" type="button" value="保存">
+                    <input class="btn false" type="button" value="取消">
+            </div>
+            <div class="ps-goods two tree">
+                    <div class="ps-goods-head">送货清单<span>返回购物车修改</span></div>
+                    <div class="ps-goods-tips">
+                        <dl>
+                            <dt>商品名称</dt>
+                            <dd>单价</dd>
+                            <dd>返现</dd>
+                            <dd>数量</dd>
+                            <dd>小计</dd>
+                        </dl>
+                    </div>
+                    <div class="ps-goods-detail clear">
+                        <div class="ps-detail-pr fl"></div>
+                        <div class="ps-detail-text1 fl">Hisense 海信 BCD-2020D 202升 三门冰箱（银色）<p>&nbsp</p><p>&nbsp</p><p>[赠品]保鲜盒 抽真空保鲜盒 海信冰洗赠品</p></div>
+                        <div class="ps-detail-text3 fl">
+                            <dl class="clear">
+                                <dd>&yen1459.00</dd>
+                                <dd>&yen0.00</dd>
+                                <dd>1</dd>
+                                <dd class="price">&yen1459.00</dd>
+                            </dl>
+                        </div>
+                        <div class="ps-detail-text4 fl">1</div>
+                    </div>
+                    <div class="ps-goods-detail2 clear">
+                        <div class="ps-goods-tab1">若您对包裹有特殊要求，请在此处留言。</div>
+                        <div class="ps-goods-tab2"><span></span>抱歉，以下商品暂不能购买，已经帮您在本次交易中减去相应金额，可以购买其他产品。</div>
+                        <div class="ps-goods-tab3"><span class="paper fl"></span>清风 欧院系列 清香型 100抽3...<p>数量：1件</p><p>&yen4.90<span>(无货)</span></p></div>
+                    </div>
+                                       
+            </div>
+            <div class="ps-goods two tree">
+                    <div class="ps-goods-head">订单结算</div>
+                    <div class="ps-goods-price">总计&nbsp<span>&yen1459.00</span></div>
+                    <input class="submit btn" type="button" value="提交订单">                   
+            </div>
+        </div>
+        <div class="foot clear">
+            <div class="foot-text1"><a herf="#">慕课简介</a>|<a herf="#">慕课公告</a>|<a herf="#">招贤纳士</a>|<a herf="#">联系我们</a>|客服热线：400-675-1234</div>
+            <div class="foot-text2">Copyright&copy2006-2004 慕课版权所有&nbsp&nbsp&nbsp&nbsp京ICP备09037834号&nbsp&nbsp&nbsp&nbsp京ICP证B1034-8373号&nbsp&nbsp&nbsp&nbsp某市公安局XX分局备案编号：123456789123</div>
+            <div class="foot-pic fl"></div>
+            <div class="foot-pic p2 fl"></div>
+            <div class="foot-pic p3 fl"></div>
+            <div class="foot-pic p4 fl"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../libs/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../rsc/js/main.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

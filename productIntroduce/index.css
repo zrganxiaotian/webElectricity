@@ -1,9 +1,9 @@
 @charset"utf-8";
 .prouct-assess .prouct-assess-tab1 span{
-    background-image: url(images/icon/pj3.jpg);
+    background-image: url(../rsc/imgs/icon/pj1.jpg);
 }
 .prouct-assess .prouct-assess-tab2 span{
-    background-image: url(images/icon/pj4.jpg);
+    background-image: url(../rsc/imgs/icon/pj4.jpg);
 }
 .prouct-assess .prouct-intro{
     width:785px;
@@ -13,7 +13,7 @@
 .prouct-intro .prouct-intro-pr{
     width:620px;
     height:170px;
-    background-image: url(images/pi.jpg);
+    background-image: url(../rsc/imgs/pi.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     margin-left:100px;
@@ -39,7 +39,7 @@
 .prouct-intro .prouct-intro-pr2{
     width:760px;
     height:550px;
-    background-image: url(images/pi2.jpg);
+    background-image: url(../rsc/imgs/pi2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -54,6 +54,5 @@
     margin-top:0px;
 }
 .conslt{
-    margin-left:210px;
     margin-top:10px;
 }

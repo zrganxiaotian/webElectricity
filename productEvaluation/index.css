@@ -22,7 +22,7 @@
 .goods-pic .goods-pic-foucs{
     width:220px;
     height:338px;
-    background-image: url(images/pe1.jpg);
+    background-image: url(../rsc/imgs/pe1.jpg);
     background-repeat: no-repeat;
     background-size: center center;
     margin-left:auto;
@@ -40,28 +40,28 @@
     border-left:1px solid #ccc;
 }
 .goods-pic-sm  .pic1{
-    background-image: url(images/pe2.jpg);
+    background-image: url(../rsc/imgs/pe2.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border:1px solid #0479ca;
 }
 .goods-pic-sm  .pic2{
-    background-image: url(images/pe3.jpg);
+    background-image: url(../rsc/imgs/pe3.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .goods-pic-sm  .pic3{
-    background-image: url(images/pe4.jpg);
+    background-image: url(../rsc/imgs/pe4.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .goods-pic-sm  .pic4{
-    background-image: url(images/pe5.jpg);
+    background-image: url(../rsc/imgs/pe5.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .goods-pic-sm  .pic5{
-    background-image: url(images/pe6.jpg);
+    background-image: url(../rsc/imgs/pe6.jpg);
     background-repeat: no-repeat;
     border-right:1px solid #ccc;
     width:53px;
@@ -94,7 +94,7 @@
     margin-left:20px;
 }
 .goods-text .tab-pic{
-    background-image: url(images/icon/pe1.jpg);
+    background-image: url(../rsc/imgs/icon/pe1.jpg);
     background-repeat: no-repeat;
     width:60px;
     height:20px;
@@ -129,7 +129,7 @@
     background-color: #fff;
 }
 .goods-text2-tab2 span{
-    background-image: url(images/icon/xs.jpg);
+    background-image: url(../rsc/imgs/icon/xs.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     width:18px;
@@ -219,13 +219,13 @@
     border: none;
     background-color: #f98700;
     float:left;
-    background-image: url(images/icon/car1.jpg);
+    background-image: url(../rsc/imgs/icon/car1.jpg);
     background-repeat: no-repeat;
     background-position: 30px center;
     color:#fff;
     font-size: 18px;
     margin-left:85px;
-    padding-left:70px;
+    padding-left:50px;
     margin-top:30px;
 }
 .choice-btn  .btn2{
@@ -263,7 +263,7 @@
     height:200px;
 }
 .ad-product .ad-product-pr{
-    background-image: url(images/pe7.jpg);
+    background-image: url(../rsc/imgs/pe7.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     width:90px;
@@ -286,22 +286,22 @@
     margin-left:15px;    
 }
 .ad-product .ad-product-pr.p2{
-    background-image: url(images/pe8.jpg);
+    background-image: url(../rsc/imgs/pe8.jpg);
 }
 .ad-product .ad-product-pr.p3{
-    background-image: url(images/pe9.jpg);
+    background-image: url(../rsc/imgs/pe9.jpg);
 }
 .ad-product .ad-product-pr.p4{
-    background-image: url(images/pe10.jpg);
+    background-image: url(../rsc/imgs/pe10.jpg);
 }
 .ad-product .ad-product-pr.p5{
-    background-image: url(images/pe11.jpg);
+    background-image: url(../rsc/imgs/pe11.jpg);
 }
 .ad-product .ad-product-pr.p6{
-    background-image: url(images/pe12.jpg);
+    background-image: url(../rsc/imgs/pe12.jpg);
 }
 .ad-product .ad-product-pr.p7{
-    background-image: url(images/pe13.jpg);
+    background-image: url(../rsc/imgs/pe13.jpg);
 }
 .prouct-assess{
     width:785px;
@@ -321,7 +321,7 @@
     line-height: 40px;
 }
 .prouct-assess-tab1 span,.prouct-assess-tab2 span{
-    background-image: url(images/icon/pj1.jpg);
+    background-image: url(../rsc/imgs/icon/pj1.jpg);
     background-repeat: no-repeat;
     background-position: 30px center;
     width:60px;
@@ -330,7 +330,7 @@
     vertical-align: middle;
 }
 .prouct-assess-tab2 span{
-    background-image: url(images/icon/pj2.jpg);
+    background-image: url(../rsc/imgs/icon/pj2.jpg);
 }
 .active{
     background-color: #0479ca !important;
@@ -359,7 +359,7 @@
     color:#666;
 }
 .prouct-scroe-pr span{
-    background-image: url(images/pe14.jpg);
+    background-image: url(../rsc/imgs/pe14.jpg);
     background-repeat: no-repeat;
     background-position: left top;
     width:460px;
@@ -388,7 +388,7 @@
     padding-left:5px;
 }
 .prouct-sort span{
-    background-image: url(images/icon/sxjt.jpg);
+    background-image: url(../rsc/imgs/icon/sxjt.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     width:18px;
@@ -414,7 +414,7 @@
     margin-top:20px;
 }
 .prouct-text-pr span{
-    background-image: url(images/icon/pe2.jpg);
+    background-image: url(../rsc/imgs/icon/pe2.jpg);
     width:70px;
     height:65px;
     background-position: center center;
@@ -422,7 +422,7 @@
     display: inline-block;
 }
 .prouct-text-esses span{
-    background-image: url(images/icon/xing.png);
+    background-image: url(../rsc/imgs/icon/xing.png);
     width:15px;
     height:15px;
     display: inline-block;
@@ -443,7 +443,7 @@
     margin-left:330px;
 }
 .prouct-text-pr.p2 span{
-    background-image: url(images/icon/pe3.jpg);
+    background-image: url(../rsc/imgs/icon/pe3.jpg);
 }
 .pading{
     border: none;
@@ -519,7 +519,7 @@
     margin-top:10px;
 }
 .prouct-text-tab .prouct-tab-pr span{
-    background-image: url(images/icon/pe4.jpg);
+    background-image: url(../rsc/imgs/icon/pe4.jpg);
     width:70px;
     height:65px;
     background-position: center center;

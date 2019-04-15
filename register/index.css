@@ -1,0 +1,37 @@
+@charset"utf-8";
+.mid-content{
+    width:630px;
+    height:575px;
+}
+.free-tab li{
+  width:415px !important;
+  height:40px;
+  text-align: right;
+  line-height: 40px;
+}
+.free-tab .text-address{
+    width:305px;
+    height:30px;
+    border:1px solid #ccc;
+}
+.free-tab{
+    margin-bottom: 50px;
+    margin-top:45px;
+}
+.free-tab2{
+    margin-left:135px;
+    color:#444;
+}
+.free-tab2 span{
+    color:#1d7ad9;
+}
+.free-tab2  .button-submit{
+    margin-top: 30px;
+}
+.password span{
+    float:right;
+}
+.free-tab input{
+   font-size:13px;
+   color:#888;
+}

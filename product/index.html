@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>电子商务平台</title>
+        <link rel="shortcut icon " type="images/x-icon" href="../favicon.ico">
+        <link rel="StyleSheet" href="../rsc/css/main.css"/>
+        <link rel="StyleSheet" href="./index.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <div class="head">
+                <div class="head-top">
+                    <div class="head-collect clear">
+                        <div class="head-collect-star fl"></div>
+                        <div class="head-collect-left fl"><a href="javascript:void(0)">收藏慕课</a></div>
+                        <div class="head-collect-right fr">
+                            欢迎来到慕课网!
+                            <a href="../login/index.html" class="right-login">[登录]</a>
+                            <a href="../register/index.html" class="right-free">[免费注册]</a>
+                            <a href="javascript:void;" id = "username" style="display:none;"></a>
+                            <a href="javascript:void;" id = "loginOut" style="display:none;" onclick="loginOut()">退出</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-mid">
+                    <div class="mid clear">
+                        <a href="../index.html"><div class="mid-logo fl"></div></a>
+                        <div class="mid-search fl clear">
+                            <input type="text" class="search-text fl">
+                            <input type="button" value="搜  索" class="search-btn fr">
+                        </div>  
+                        <div class="mid-car fr clear"><a href="../productSettlement/">
+                            <div class="car-icon fl"></div>    
+                            <span class="car-text">购物车</span>
+                            <div class="car-right fr clear"><span class="car-text1 fr">0</span></div></a>           
+                        </div>
+                    </div>
+                </div>
+                <div class="head-foot">
+                    <div class="foot-menu">
+                        <dl class="clear">
+                            <dt class="menu-one clear"><h4><a href="../index.html">全部商品分类</a></h4><span></span></dt>
+                            <dd class="tab-active a"><a href="../product/">数码城</a></dd>
+                            <dd class="tab-active "><a href="../screen/">商城</a></dd>
+                            <dd class="tab-active"><a href="../productIntroduce/">团购</a></dd>
+                            <dd>发现</dd>
+                            <dd>二手特卖</dd>
+                            <dd>名品会</dd>
+                        </dl>   
+                    </div>
+                </div>
+            </div>
+            <div class="content clear">
+                <div class="content-prouct-menu">
+                   <div class="prouct-mennu-title">手机、相机、数码</div>
+                   <div class="prouct-menu-tab1">
+                       <dl>
+                           <dt><a href="javascript:void(0)">手机通讯</a></dt>
+                       </dl>
+                       <div class="prouct-menu-tab2">
+                           <dl class="clear">
+                               <dd><a href="javascript:void(0)">全部手机</a></dd>
+                               <dd><a href="javascript:void(0)">1080P高清</a></dd>
+                               <dd><a href="javascript:void(0)">双卡手机</a></dd>
+                               <dd><a href="javascript:void(0)">拍照神器</a></dd>
+                               <dd><a href="javascript:void(0)">老年手机</a></dd>
+                               <dd><a href="javascript:void(0)">对讲机</a></dd>
+                               <dd><a href="javascript:void(0)">联通专区</a></dd>
+                           </dl>
+                       </div>
+                   </div>
+                   <div class="prouct-menu-tab1">
+                    <dl>
+                            <dt><a href="javascript:void(0)">数码相机</a></dt>
+                    </dl>
+                    <div class="prouct-menu-tab2">
+                        <dl class="clear">
+                            <dd><a href="javascript:void(0)">卡片机</a></dd>
+                            <dd><a href="javascript:void(0)">中长焦</a></dd>
+                            <dd><a href="javascript:void(0)">专业便</a></dd>
+                            <dd><a href="javascript:void(0)">携自拍利器</a></dd>
+                            <dd><a href="javascript:void(0)">防水防摔</a></dd>
+                            <dd><a href="javascript:void(0)">一次成像</a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="prouct-menu-tab1">
+                    <dl>
+                            <dt><a href="javascript:void(0)">单反</a></dt>
+                    </dl>
+                    <div class="prouct-menu-tab2">
+                        <dl class="clear">
+                            <dd><a href="javascript:void(0)">全部</a></dd>
+                            <dd><a href="javascript:void(0)">佳能</a></dd>
+                            <dd><a href="javascript:void(0)">尼康</a></dd>
+                            <dd><a href="javascript:void(0)">宾得</a></dd>
+                            <dd><a href="javascript:void(0)">哈苏</a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="prouct-menu-tab1">
+                    <dl>
+                        <dt><a href="javascript:void(0)">镜头</a></dt>
+                    </dl>
+                    <div class="prouct-menu-tab2">
+                        <dl class="clear">
+                            <dd><a href="javascript:void(0)">单反镜头</a></dd>
+                            <dd><a href="javascript:void(0)">微单镜头</a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="prouct-menu-tab1">
+                        <dl>
+                            <dt><a href="javascript:void(0)">摄像机</a></dt>
+                        </dl>
+                <div class="prouct-menu-tab2">
+                            <dl class="clear">
+                                <dd><a href="javascript:void(0)">全部</a></dd>
+                                <dd><a href="javascript:void(0)">索尼</a></dd>
+                                <dd><a href="javascript:void(0)">松下</a></dd>
+                                <dd><a href="javascript:void(0)">佳能</a></dd>
+                                <dd><a href="javascript:void(0)">三星</a></dd>
+                            </dl>
+                </div>
+                </div>
+                <div class="prouct-menu-tab1">
+                        <dl>
+                            <dt><a href="javascript:void(0)">摄像配件</a></dt>
+                        </dl>
+                <div class="prouct-menu-tab2">
+                            <dl class="clear">
+                                <dd><a href="javascript:void(0)">相机包</a></dd>
+                                <dd><a href="javascript:void(0)">相机电池</a></dd>
+                                <dd><a href="javascript:void(0)">贴膜</a></dd>
+                                <dd><a href="javascript:void(0)">滤镜</a></dd>
+                                <dd><a href="javascript:void(0)">三脚架</a></dd>
+                                <dd><a href="javascript:void(0)">闪光灯</a></dd>
+                                <dd><a href="javascript:void(0)">遮光罩</a></dd>
+                                <dd><a href="javascript:void(0)">遥控器</a></dd>
+                                <dd><a href="javascript:void(0)">专业配件</a></dd>
+                                <dd><a href="javascript:void(0)">清洁用品</a></dd>
+                                <dd><a href="javascript:void(0)">望远镜</a></dd>
+                            </dl>
+                </div>
+                </div>
+                <div class="prouct-menu-tab1">
+                        <dl>
+                            <dt><a href="javascript:void(0)">数码储存</a></dt>
+                        </dl>
+                <div class="prouct-menu-tab2">
+                            <dl class="clear">
+                                <dd><a href="javascript:void(0)">刻录盘片</a></dd>
+                                <dd><a href="javascript:void(0)">盘片附件</a></dd>
+                            </dl>
+                </div>
+                </div>
+                <div class="prouct-menu-tab1 last">
+                        <dl>
+                            <dt><a href="javascript:void(0)">电子教育</a></dt>
+                        </dl>
+                <div class="prouct-menu-tab2">
+                            <dl class="clear">
+                                <dd><a href="javascript:void(0)">电子书</a></dd>
+                                <dd><a href="javascript:void(0)">盘电子词典</a></dd>
+                                <dd><a href="javascript:void(0)">幼儿教育</a></dd>
+                                <dd><a href="javascript:void(0)">智能学习</a></dd>
+                                <dd><a href="javascript:void(0)">录音笔</a></dd>
+                            </dl>
+                </div>
+                </div>    
+            </div>
+            <div class="focus fl"></div> 
+            <div class="procut-columns fl">数码影像</div>
+            <div class="procut-columns-line fl"></div>
+            <div class="procut-conent fl clear">
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">Canon佳能IXUS 132数码相<p>机 粉色（1600像素2.7&quotLCD</p></a></div>
+                    <div class="procut-conent-price">&yen699.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">79条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p2"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">Canon佳能 PowerShotN数<p>码相机 白色礼盒装</p></a></div>
+                    <div class="procut-conent-price">&yen2199.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">0条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p3"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">全网底价 Fujifilm 富士<p>FinaPix JX710数码相机 粉色</p></a></div>
+                    <div class="procut-conent-price">&yen349.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">157条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p4"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">Canon佳能EOS 60D 单反套<p>机（EF-S 18-135IS）</p></a></div>
+                    <div class="procut-conent-price">&yen6099.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">1322条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p5"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">SONY索尼 DSC-TX66数码相<p>机 粉色（1820像素/3.3英寸</p></a></div>
+                    <div class="procut-conent-price">&yen969.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">190条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p6"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">Canon佳能 LEGRIA HF<p>R502 摄像机 白色</p></a></div>
+                    <div class="procut-conent-price">&yen2799.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">0条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p7"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">Samsung三星 GALAXY Tab<p>33G版T1117英寸平板电脑</p></a></div>
+                    <div class="procut-conent-price">&yen1698.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">0条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p8"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">全网底价 Sony索尼 NEX-3NL<p>16-50mm单变焦镜头套装 粉</p></a></div>
+                    <div class="procut-conent-price">&yen2430.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">203条</a></span>）</div>
+                </div>
+            </div>
+            <div class="procut-columns fl">娱乐影音</div>
+            <div class="procut-columns-line fl"></div>
+            <div class="procut-conent fl clear">
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p9"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">KSD 凯士达USB电脑跳舞毯<p>即接即用，性价比强，纯中文</p></a></div>
+                    <div class="procut-conent-price">&yen39.90</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">7865条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p10"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">Apple苹果 iPod touch4 32G<p>MD058CH/A白色 多媒体播放</p></a></div>
+                    <div class="procut-conent-price">&yen1359.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">16条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p11"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">lepw乐泡 磐石6000 通用型<p>移动电源 大黄鸭定制版本</p></a></div>
+                    <div class="procut-conent-price">&yen139.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">87条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p12"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">youwin 友多闻UDN708天乙<p>四核手机平板 7英寸 IPS全贴</p></a></div>
+                    <div class="procut-conent-price">&yen799.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">87条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p13"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">天韵2CJTBD 2寸吉它背带（黑<p>花色）</p></a></div>
+                    <div class="procut-conent-price">&yen3.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">19条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p14"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">Philips 飞利浦SPF1127/93 7<p>英寸 数码相框 白色</p></a></div>
+                    <div class="procut-conent-price">&yen259.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">225条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p15"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">ibody Rianbow蓝牙健康追踪<p>器 蓝色</p></a></div>
+                    <div class="procut-conent-price">&yen239.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">19条</a></span>）</div>
+                </div>
+                <div class="procut-conent-list fl">
+                    <a href="javascript:void(0)"><div class="procut-conent-pic p16"></div></a>
+                    <div class="procut-conent-text"><a href="javascript:void(0)">SmartQ智器Z watch只能手<p>表 开启可穿戴式达人酷毙生活</p></a></div>
+                    <div class="procut-conent-price">&yen699.00</div>
+                    <div class="procut-conent-evaluate">评价 : <span></span><span></span><span></span><span></span><span></span>（<span class="num"><a href="javascript:void(0)">16条</a></span>）</div>
+                </div>
+            </div>
+        </div>
+            <div class="foot clear">
+                <div class="foot-text1"><a href="javascript:void(0)">慕课简介</a>|<a href="javascript:void(0)">慕课公告</a>|<a href="javascript:void(0)">招贤纳士</a>|<a href="javascript:void(0)">联系我们</a>|客服热线：400-675-1234</div>
+                <div class="foot-text2">Copyright&copy2006-2004 慕课版权所有&nbsp&nbsp&nbsp&nbsp京ICP备09037834号&nbsp&nbsp&nbsp&nbsp京ICP证B1034-8373号&nbsp&nbsp&nbsp&nbsp某市公安局XX分局备案编号：123456789123</div>
+                <div class="foot-pic fl"></div>
+                <div class="foot-pic p2 fl"></div>
+                <div class="foot-pic p3 fl"></div>
+                <div class="foot-pic p4 fl"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../libs/jquery/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../rsc/js/main.js"></script>
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>

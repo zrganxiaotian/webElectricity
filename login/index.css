@@ -1,0 +1,71 @@
+@charset"utf-8";
+.mid-text{
+    font-size:25px;
+    color:#fff;
+    padding-top:30px;
+    margin-left:30px;
+}
+.mid-content{
+    width:380px;
+    height:315px;
+    border:1px solid #ccc;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    color:#999;
+    padding-left:80px;
+    padding-top:40px;
+}
+.mid-content .text,.mid-content .password{
+    background-image: url(../rsc/imgs/icon/dl.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: inline-block;
+    width:305px;
+    height:30px;
+    border:1px solid #ccc;
+}
+.mid-content .password{
+    background-image: url(../rsc/imgs/icon/mm.jpg);
+}
+.mid-content .input{
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom:30px;
+    color:#555;
+
+}
+.mid-content .button-submit{
+    width:305px;
+    height:32px;
+    background-image: url(../rsc/imgs/icon/bjt.jpg);
+    background-repeat: repeat-x;
+    border:1px solid #ccc;
+    font-size: 16px;
+    color:#666;
+    font-weight: bold;
+    
+}
+.mid-content .tab-name span{
+    background-image: url(../rsc/imgs/icon/gd.jpg);
+    display: inline-block;
+    width:15px;
+    height:15px;
+}
+.mid-content .tab-name{
+    font-size:13px;
+    margin-top:30px;
+}
+.mid-content .tab-name p{
+    color:#555;
+}
+.btn-free{
+    display:inline-block;
+    margin-left:1000px;
+    width:115px;
+    height:30px;
+    color:#fff;
+    background-color: #7cbe56;
+    border:none;
+    border-radius:0 0 3px 3px;
+}
