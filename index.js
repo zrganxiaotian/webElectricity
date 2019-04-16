@@ -1,6 +1,43 @@
     var tabindex = 0,index=1;
 
+    var products=[
+        {
+            
+        }
+    ]
+
     $(function(){
+        imagePlay();
+        selectDownMenu();
+    });
+
+    function selectDownMenu(){
+        $(".head-collect-left").click(function(){
+            alert("收藏慕课网！");
+        });
+        $(".menu-one").mouseover(function(){
+            $(".content-menu").show();
+        }).mouseout(function(){
+            $(".content-menu").hide();
+        });
+
+        $(".twomenu,.ringt-picture,.menu-left-tab2").mouseover(function(){
+            var $this = $(".menu-left-tab2:eq("+tabindex+")");
+            if($(this).hasClass("menu-left-tab2")){
+                $this = $(this);
+                tabindex = $this.index();
+                var _html = getHtml(tabindex);
+                //console.log(_html);
+                $(".twomenu").html(_html);
+            }
+            mouseover($this);
+        }).mouseout(function(){
+            var $this=$(".menu-left-tab2:eq("+tabindex+")");
+            mouseout($this);
+        });
+    }
+
+    function imagePlay(){
         $(".focus-main-btns a").hover(function(){
             $(".focus-main-btns a").removeClass("mid-active");
             $(this).addClass("mid-active");
@@ -26,31 +63,7 @@
                 index++;
             }
         },2000);
-
-        $(".head-collect-left").click(function(){
-            alert("收藏慕课网！");
-        });
-        $(".menu-one").mouseover(function(){
-            $(".content-menu").show();
-        }).mouseout(function(){
-            $(".content-menu").hide();
-        });
-
-        $(".twomenu,.ringt-picture,.menu-left-tab2").mouseover(function(){
-            var $this = $(".menu-left-tab2:eq("+tabindex+")");
-            if($(this).hasClass("menu-left-tab2")){
-                $this = $(this);
-                tabindex = $this.index();
-                var _html = getHtml(tabindex);
-                //console.log(_html);
-                $(".twomenu").html(_html);
-            }
-            mouseover($this);
-        }).mouseout(function(){
-            var $this=$(".menu-left-tab2:eq("+tabindex+")");
-            mouseout($this);
-        });
-    });
+    }
 
     function getHtml(tabindex){
         var _html = '<div class="twomenu-text1 clear">';
@@ -208,6 +221,7 @@
         $this.find(".tab1-text2 a").css("color","#c2d9f8");
     }
 
+ 
 
 
    
