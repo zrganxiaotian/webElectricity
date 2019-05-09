@@ -33,10 +33,11 @@
                                 <input type="text" class="search-text fl">
                                 <input type="button" value="搜  索" class="search-btn fr">
                             </div>  
-                            <div class="mid-car fr clear"><a href="../productSettlement/">
-                                <div class="car-icon fl"></div>    
-                                <span class="car-text">购物车</span>
-                                <div class="car-right fr clear"><span class="car-text1 fr">0</span></div></a>           
+                            <div class="mid-car fr clear">
+                                <a href="../productSettlement/"><div class="car-icon fl"></div></a>    
+                                <a href="../productSettlement/"><span class="car-text">购物车</span></a>
+                                <a href="../productSettlement/"><div class="car-right fr clear"><span class="car-text1 fr">0</span></div></a>
+                                <div class="carnone fr">清空</div>          
                             </div>
                         </div>
                     </div>
@@ -61,7 +62,7 @@
                         <div class="goods-pic-foucs"></div>
                         <div class="goods-pic-sm">
                             <ul class="clear">
-                                <li class="pic1"></li>
+                                <li class="pic1 active3"></li>
                                 <li class="pic2"></li>
                                 <li class="pic3"></li>
                                 <li class="pic4"></li>
@@ -76,14 +77,18 @@
                         <div class="goods-text2">
                             <div class="goods-text2-tab clear">
                                 <div class="goods-text2-tab1 fl">送到</div>
-                                <div class="goods-text2-tab2 fl">北京市 海淀区 五环内<span></span></div>
+                                <select class="style1 fl">
+                                    <option>北京市 海淀区 五环内</option>
+                                    <option>胡同里</option>
+                                    <option>三里屯</option>
+                                </select>
                                 <div class="goods-text2-tab3 fl">有货，可当日出库</div>
                             </div>
                             <div class="goods-text2-color clear">
                                 <div class="goods-text2-tab4 fl">选择颜色</div>
                                 <div class="goods-text2-tab5 fl">
                                     <ul class="clear">
-                                        <li class="active">白色</li>
+                                        <li class="active2">白色</li>
                                         <li>黑色</li>
                                         <li>灰色</li>
                                     </ul>
@@ -92,7 +97,7 @@
                             <div class="goods-text2-tab6 clear">
                                     <div class="goods-text2-format fl">选择规格</div>
                                     <ul class="clear">
-                                        <li class="active">WIFI 16G</li>
+                                        <li class="active2">WIFI 16G</li>
                                         <li>WIFI 64G</li>
                                         <li>WIFI 32G</li>
                                         <li>WIFI Cellular32G</li>
@@ -108,11 +113,11 @@
                                 <div class="goods-text2-tab11">限购<span>9</span>件</div>
                             </div>
                         </div>
-                        <div class="choice">已选择<span>“白色|WIFI 16G”</span></div>
+                        <div class="choice">已选择<span>"白色|WIFI 16G"</span></div>
                         <div class="choice-btn clear">
-                            <input type="button" value="加入购物车">
+                            <input type="button" value="加入购物车" id="btnaddcar">
                             <div class="line fl"></div>
-                            <input type="button" value="立即购买" class="btn2">
+                            <a href="../productSettlement/index.html"><input type="button" value="立即购买" class="btn2"></a>
                         </div>
                         <div class="care">注意：此商品可提供普通发票，不提供增值税发票。</div>
                     </div>
@@ -201,12 +206,21 @@
                 <div class="prouct-text fl clear">
                             <div class="prouct-text-tab clear">
                                 <div class="prouct-text-pr fl"><span></span><p>61****42</p><p>金色会员</p></div>
-                                <div class="prouct-text-esses fl"><span></span><span></span><span></span><span></span><span></span>5分 满意<p>挺不错的，信赖慕课</p><p class="cai">踩（0） 顶（0）</p></div>
+                                <div class="prouct-text-esses fl clear"><span></span><span></span><span></span><span></span><span></span>5分 满意<p>挺不错的，信赖慕课</p>
+                    
+                                      <div class="cai one fl"><span class="disagree">踩</span>（<span class="danum1">0</span>）</div> 
+                                      <div class="cai two fl"><span class="agree">顶</span>（<span class="anum1">0</span>）</div>
+                                
+                                </div> 
                                 <div class="prouct-text-time fl">2014-03-07 14:41:44</div>
                             </div>
                             <div class="prouct-text-tab clear">
                                 <div class="prouct-text-pr p2 fl"><span></span><p>88****88</p><p>铜色会员</p></div>
-                                <div class="prouct-text-esses fl"><span></span><span></span><span></span><span></span><span></span>5分 满意<p>挺不错的，信赖慕课</p><p class="cai">踩（0） 顶（0）</p></div>
+                                <div class="prouct-text-esses fl clear"><span></span><span></span><span></span><span></span><span></span>5分 满意<p>挺不错的，信赖慕课</p> 
+                                            <div class="cai tree fl"><span class="disagree">踩</span>（<span class="danum2">0</span>）</div> 
+                                            <div class="cai four fl"><span class="agree">顶</span>（<span class="anum2">0</span>）</div>
+                                
+                                </div> 
                                 <div class="prouct-text-time fl">2014-03-07 14:41:44</div>
                             </div>
                         
@@ -214,17 +228,17 @@
                                 <div class="pading-num">
                                     <ul class="clear">
                                         <li class="first">上一页&gt</li>
-                                        <li class="one">1</li>
-                                        <li>2</li>
-                                        <li>3</li>
-                                        <li>4</li>
-                                        <li>5</li>
-                                        <li class="deng blue">...</li>
-                                        <li class="blue">1879</li>
-                                        <li class="blue">下一页&gt</li>
+                                        <li class="active4">1</li>
+                                        <li class="">2</li>
+                                        <li class="">3</li>
+                                        <li class="">4</li>
+                                        <li class="">5</li>
+                                        <li class="blue">6</li>
+                                        <li class="blue">7</li>
+                                        <li class="last">下一页&gt</li>
                                     </ul>
                                 </div>
-                                <div class="pading-total-pe fr">到第 <span>1</span> 页 <input type="button" value=确定></div>
+                                <div class="pading-total-pe1 fr">到第 <input class="pe-page1" type="text" value="1"> 页 <input type="button" value=确定 class="btnsure"></div>
                             </div>  
                 </div>
             </div>
@@ -247,14 +261,14 @@
                         <div class="prouct-tab-reply fl"><span>慕课网回复</span>：您好，现在已经是活动价格了！</div>
                 </div>
                     <div class="pading two fl clear">
-                            <div class="pading-num">
+                            <div class="pading-num2">
                                 <ul class="clear">
                                     <li class="first">上一页&gt</li>
-                                    <li class="one">1</li>
+                                    <li class="active4">1</li>
                                     <li>2</li>
                                 </ul>
                             </div>
-                            <div class="pading-total-pe fr">到第 <span>1</span> 页 <input type="button" value=确定></div>
+                            <div class="pading-total-pe2 fr">到第 <input class="pe-page2" type="text" value="1">页 <input type="button" value=确定 class="btnsure"></div>
                         </div>  
             </div>
         </div>

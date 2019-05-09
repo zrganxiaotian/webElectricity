@@ -56,3 +56,57 @@
 .conslt{
     margin-top:10px;
 }
+.style1{
+    margin-left:15px;
+    padding:3px 17px 3px 14px;
+    background-position: 143px center;
+}
+.active2{
+    border: 1px solid #3362ac !important;
+}
+.goods-text2{
+    cursor: default;
+}
+.active3{
+    border: 1px solid #3362ac !important;
+}
+.pading-num2{
+    margin-left:400px;
+}
+.pading-num{
+    margin-left:200px;
+}
+.pading-total-pe1 input,.pading-total-pe2 input{
+    display: inline-block;
+    width:37px;
+    height:19px;
+    text-align: center;
+}
+.pading-total-pe1,.pading-total-pe2{
+    line-height: 20px;
+    margin-top:-25px;
+}
+.pading-total-pe1 .btnsure,.pading-total-pe2 .btnsure{
+    display:inline-block;
+    width:50px !important;
+    height:25px !important;
+}
+.pading-total-pe1,.pading-total-pe2{
+  margin-right: 20px;
+}
+.disagree{
+    display: inline-block;
+    width:20px!important;
+    height:20px!important;
+    background-image: none!important;
+}
+.danum1,.agree,.anum1,.danum2,.anum2{
+    background-image: none!important;
+}
+.prouct-text-esses .cai{
+    width:65px;
+    color:#085c9b;
+    font-weight: normal;
+    text-align: center;
+   
+}

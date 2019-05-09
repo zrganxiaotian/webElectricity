@@ -118,14 +118,30 @@
     background-repeat:no-repeat;
     background-position: right center;
     height:34px;
-    width:30px;
     line-height:34px;
     margin-right:5px;
+    padding-right:20px;
+    
 }
 .mid-car .car-right{
-    width:57px;
+    width: 56px;
     height:34px;
     border-left:1px solid #ff9c01;
+    border-right:1px solid #e27a00;
+   
+}
+.carnone{
+    color:#fff;
+    width:35px;
+    height:34px;
+    margin-top:-34px;
+    background-color:#ff8c00 ;
+    margin-right:-36px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 13px;
+    border-left:1px solid #ff9c01;
+    cursor: pointer;
 }
 .head-foot{
     height:35px;

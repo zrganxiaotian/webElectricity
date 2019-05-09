@@ -25,6 +25,7 @@
     background-image: url(../rsc/imgs/pe1.jpg);
     background-repeat: no-repeat;
     background-size: center center;
+    background-position: cover;
     margin-left:auto;
     margin-right: auto;
     margin-top:20px;
@@ -43,7 +44,6 @@
     background-image: url(../rsc/imgs/pe2.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    border:1px solid #0479ca;
 }
 .goods-pic-sm  .pic2{
     background-image: url(../rsc/imgs/pe3.jpg);
@@ -204,6 +204,7 @@
 .goods-text2-num{
     margin-top:10px;
 }
+
 .choice{
     font-size:14px;
     font-weight: bold;
@@ -404,6 +405,7 @@
     background-color: #fff;
     font-size:14px;
     color:#777;
+    cursor: default;
 
 }
 .prouct-text-pr{
@@ -449,9 +451,12 @@
     border: none;
     width:785px;
 }
-.pading-num{
+.pading-num,.pading-num2{
     margin-left:225px;
     color:#000;
+}
+.pading-num .first,.pading-num2 .first{
+    color:#ccc;
 }
 .pading-total-pe{
     margin-right: 7px;
@@ -469,10 +474,8 @@
 .pading-num .blue{
     color:#085c9b;
 }
-.pading-num .first{
-    color:#999;
-}
-.pading-num .one{
+
+.pading-num .active4,.pading-num2 .active4{
     background-color: #e9e9e9;
     color:#ff0000;
 }
@@ -482,6 +485,7 @@
     background-color: #fff;
     margin-left:20px;
     margin-top:20px;
+    cursor:default;
 }
 .conslt-head{
     height:33px;
